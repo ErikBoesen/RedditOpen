@@ -1,0 +1,13 @@
+{
+  "name": "Open Reddit Links",
+  "version": "0.1",
+  "manifest_version" : 2,
+  "description": "Click a button to open all unread Reddit links on a page.",
+  "background" : {
+    "scripts" : ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": "128.png"
+  },
+  "permissions": ["activeTab"]
+}
